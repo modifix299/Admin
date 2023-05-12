@@ -11,10 +11,10 @@ const SideBar = () => {
     const isAdmin = (user.role === "Admin" ? true : false);
 
     const onToggle = () => {        
-        if(toggle === "navbar-nav bg-gradient-dark sidebar sidebar-dark accordion"){
-            setToggle("navbar-nav bg-gradient-dark sidebar sidebar-dark accordion toggled");
+        if(toggle === "navbar-nav bg-dark sidebar sidebar-dark accordion"){
+            setToggle("navbar-nav bg-dark sidebar sidebar-dark accordion toggled");
         } else {
-            setToggle("navbar-nav bg-gradient-dark sidebar sidebar-dark accordion");
+            setToggle("navbar-nav bg-dark sidebar sidebar-dark accordion");
         }
     }
 
